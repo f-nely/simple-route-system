@@ -1,0 +1,18 @@
+{
+    "name": "f-nely/simple-routes",
+    "description": "Sistema de rotas simples",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "f-nely",
+            "email": "nelly.nf54@gmail.com"
+        }
+    ],
+    "require": {
+        "league/plates": "^3.4"
+    }
+}
