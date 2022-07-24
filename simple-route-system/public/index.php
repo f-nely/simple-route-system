@@ -1,8 +1,8 @@
 <?php
 
 
-require 'vendor/autoload.php';
-require 'routes/router.php';
+require '../vendor/autoload.php';
+require '../routes/router.php';
 
 try {
     $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
