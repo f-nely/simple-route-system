@@ -9,8 +9,9 @@ class ContactController
         Controller::view('contact');
     }
 
-    public function store()
+    public function store($params)
     {
+        var_dump($params);
         var_dump('store do contact');
     }
 }
